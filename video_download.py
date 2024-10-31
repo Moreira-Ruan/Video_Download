@@ -12,8 +12,9 @@ download_path = '/home/moreira/Documentos/Dev Web Full Stack/Video download/Down
 
 # Opções de download
 ydl_opts = {
-    'format': 'best',
+    'format': 'bestvideo[height<=1080]+bestaudio/best[height<=1080]',
     'outtmpl': f'{download_path}/%(title)s.%(ext)s',
+    'merge_output_format': 'mp4'
 }
 
 # Baixar cada vídeo
