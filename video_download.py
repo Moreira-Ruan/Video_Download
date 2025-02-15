@@ -1,14 +1,13 @@
 import yt_dlp
+import os
 
 # Lista de URLs de vídeos individuais
 video_urls = [
-    '',
-    '',
-    ''
+    'https://www.youtube.com/watch?v=jyVezrgQ_uk&t=8s'
 ]
 
 # Diretório de download
-download_path = '/home/moreira/Documentos/Dev Web Full Stack/Video download/Downloads'
+download_path = os.path.join(os.getcwd(), "Downloads")
 
 # Opções de download
 ydl_opts = {
