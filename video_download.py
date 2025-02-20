@@ -3,7 +3,7 @@ import os
 
 # Lista de URLs de vídeos individuais
 video_urls = [
-    'https://www.youtube.com/watch?v=jyVezrgQ_uk&t=8s'
+    'https://www.youtube.com/watch?v=MQs8_KIj_PU'
 ]
 
 # Diretório de download
